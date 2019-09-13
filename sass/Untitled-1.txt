@@ -1,0 +1,7 @@
+ctrl + g = Jumo to line;
+Re-open closed tab = ctrl + shift + T
+split editor = ctrl+ \
+setting = ctrl + ,
+zoom ctrl++ , ctrl --
+reset zoom ctrl + 0
+alt + down arrow move code

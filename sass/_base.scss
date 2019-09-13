@@ -1,0 +1,57 @@
+:root {
+    --main-color: #6A6A86;
+    --main2-color: #413F59;
+    --secondary-color: #413F59;
+    --color-font: white;
+    --color-white: #fff;
+    --color-gray: #6A6A86;
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #494762;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+    --color-grey-dark-1: #333;
+    --header-color-1: #6A6A86;
+    --header-color-2: #6A6A86;
+    --menu-hover-color: #6A6A86;
+    --icon-color: #333;
+    --icon-color-hover: rgb(136, 136, 172);
+    --notification-color: #333333;
+    --side-bar-color: #424149;
+    --hotel-content-color: #6A6A86;
+    --btn-color: #494762;
+}
+
+$bp-largest: 75rem;
+$bp-large: 68.5rem;
+$bp-medium: 53.5rem;
+$bp-small: 38.5rem;
+$mobile: 38rem;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px , 10px/16px = 62.5%
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    background-image: linear-gradient(to right bottom, var(--main-color), var(--secondary-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
